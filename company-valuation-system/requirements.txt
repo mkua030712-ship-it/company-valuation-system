@@ -1,0 +1,3 @@
+# 依赖极简：仅 numpy + Python 标准库（sqlite3/argparse/math/os/csv/collections）
+# 可按实际 import 复核；脚本刻意不用 pandas/scipy/sklearn，便于零依赖复现。
+numpy>=1.24
